@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KM Associates</title>
+    <link rel="icon" href="/assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/images/kmbuzz-app-logo.png" sizes="160x160" />
+
+    <link rel="stylesheet" href="assets/vendor/bootstrap-5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/g-fonts/poppins.css">
+    <!-- custom style -->
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <div class="d-flex flex-column min-vh-100">
+        <!-- HEADER -->
+        <header id="fixed_header" class="bg-white">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <h1 class="text-uppercase fs-5 text-dark">
+                            <font color="#ffcd42">KM Associates&nbsp;</font>
+                            <font class="text-muted">&</font>
+                            <br>
+                            <font>Business Support Solution</font>
+                        </h1>
+                    </a>
+                    <button class="navbar-toggler ms-auto ms-sm-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fa-solid fa-bars"></i></span>
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="ms-auto navbar-nav mb-2 mb-lg-0 me-lg-5" style="font-weight: 500;">
+                            <!-- <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0);" onclick="navagateByID('about_us')">About
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0);"
+                                    onclick="navagateByID('services')">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0);"
+                                    onclick="navagateByID('contact_us')">Contact Us</a>
+                            </li>
+                        </ul>
+                        <a href="https://api.whatsapp.com/send?phone=80980900654&text=Hello! KM Associates"
+                            target="_blank"
+                            class="btn btn-outline-success fs-6 d-flex mx-auto mx-lg-0 d-flex align-items-center">Whatsapp
+                            <i class="fa-brands fa-whatsapp ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- HEADER END -->
+        <div class="main-container container mb-3" style="flex:1">
+            <!-- Welcome design start -->
+            <div class="cont-img-bg d-flex flex-column" style="flex: 1;">
+                <div class="d-flex flex-lg-row flex-column" style="flex: 1;">
+                    <div class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start"
+                        style="flex: 1;">
+                        <div class="circle-img rounded-circle floating overflow-hidden d-flex flex-column 
+                        border border-5 border-light m-5 shadow-lg">
+                            <div class="img-divider-1 d-flex" style="flex: 1;">
+                                <img src="assets/images/circle-img-pos-1.jpg" alt="kmbuzz"
+                                    class="col-6 border-end border-bottom border-2 border-secondary circle-img-effect"
+                                    title="Income tax service">
+                                <img src="assets/images/circle-img-pos-2.jpg" alt="kmbuzz"
+                                    class="col-6 border-start border-2 border-bottom border-secondary circle-img-effect"
+                                    title="GST Service">
+                            </div>
+                            <div class="img-divider-1 d-flex" style="flex: 1;">
+                                <img src="assets/images/circle-img-pos-3.png" alt="kmbuzz"
+                                    class="col-6 border-end border-top border-2 border-secondary circle-img-effect"
+                                    title="Other Services">
+                                <img src="assets/images/circle-img-pos-4.jpg" alt="kmbuzz"
+                                    class="col-6 border-start border-top border-2 border-secondary circle-img-effect"
+                                    title="24X7 Helpdesk">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content col-lg-6 d-flex flex-column justify-content-center" style="flex: 1;">
+                        <h2 class="text-warning">Grow with Us</h2>
+                        <span class="text-muted my-3">
+                            KM Associates in Manamelkudi, Pudukkottai(dt) is a one of the top player in the category
+                            Accountants. This well-known establishment acts as a one-stop destination servicing
+                            customers
+                            both local and worldwide. Over the course of its journey, this business has established a
+                            firm
+                            foothold in its industry. The belief that customer satisfaction is as important as their
+                            products and services, have helped this establishment garner a vast base of customers, which
+                            continues to grow by the day.
+                        </span>
+                        <button onclick="navagateByID('about_us')" class="btn btn-outline-warning mt-2 me-auto">
+                            Explore More
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Welcome design end -->
+            <!-- SET 1 : About Us Start -->
+            <div id="about_us" class="about-us my-4">
+                <h3 class="text-center mb-5 text-warning">About Us</h3>
+                <div class="">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="about-us-profile-card mx-auto d-flex flex-column">
+                                <img src="assets/images/karthikeyan-profile.jpg"
+                                    class="mx-auto rounded-circle border border-4" alt="KarthikeyanMunusamy"
+                                    height="130" width="130">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title mx-auto text-center">Karthikeyan (Ariyan) Munusamy</h5>
+                                    <small class="mx-auto text-center text-muted">Associate Auditor | Founder of KM
+                                        Associates</small>
+
+                                    <small
+                                        class="mt-2 me-auto text-white bg-success bg-opacity-75 px-1 rounded-2">Certificates</small>
+                                    <ul class="fa-ul mb-0 ms-4">
+                                        <li>
+                                            <span class="fa-li"><i
+                                                    class="fa-solid fa-circle-check text-success"></i></span>
+                                            <small>Food Safety Digital Mitra<span class="text-muted"> | FSSAI
+                                                    Publication</span></small>
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i
+                                                    class="fa-solid fa-circle-check text-success"></i></span>
+                                            <small>List Financial Accounting- A Brief Introduction<span
+                                                    class="text-muted"> | Udemy</span></small>
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i
+                                                    class="fa-solid fa-circle-check text-success"></i></span>
+                                            <small>Excel for Accounting<span class="text-muted"> |
+                                                    LinkedIn</span></small>
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i
+                                                    class="fa-solid fa-circle-check text-success"></i></span>
+                                            <small>Strategic Planning Foundations<span class="text-muted"> |
+                                                    LinkedIn</span></small>
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i
+                                                    class="fa-solid fa-circle-check text-success"></i></span>
+                                            <small>Accounting Foundations: Bookkeeping<span class="text-muted"> |
+                                                    LinkedIn</span></small>
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i
+                                                    class="fa-solid fa-circle-check text-success"></i></span>
+                                            <small>Economics for Everyone: Understanding a Recession<span
+                                                    class="text-muted"> | LinkedIn</span></small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="">
+                                <div class="d-flex flex-column">
+                                    <!-- <h3 class="text-center mb-5 text-warning">Achievements</h3> -->
+                                    <img src="assets/images/about-us-achieve-2.jpg" class="mx-auto" height="300"
+                                        width="300" alt="Achievement">
+                                    <ul class="mb-0 mx-auto">
+                                        <li class="d-flex align-items-center">
+                                            <span class="fa-2x me-2">
+                                                <i class="fa-solid fa-circle-check text-warning"></i>
+                                            </span>
+                                            <span>3+ Years of Industry Experience</span>
+                                        </li>
+
+                                        <li class="d-flex align-items-center">
+                                            <span class="fa-2x me-2">
+                                                <i class="fa-solid fa-circle-check text-warning"></i>
+                                            </span>
+                                            <span>100+ Active Clients</span>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <span class="fa-2x me-2">
+                                                <i class="fa-solid fa-circle-check text-warning"></i>
+                                            </span>
+                                            <span>15+ Bussiness Services</span>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <span class="fa-2x me-2">
+                                                <i class="fa-solid fa-circle-check text-warning"></i>
+                                            </span>
+                                            <span>20+ Citizen Services</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SET 1 : About Us End -->
+            <!-- SET 2 : Services Start -->
+            <div id="services" class="services my-4">
+                <h3 class="text-center mb-5 text-warning">Services</h3>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4  g-4">
+                    <div class="col">
+                        <div class="flip-card mx-auto">
+                            <div class="flip-card-inner rounded">
+                                <div
+                                    class="flip-card-front rounded p-2 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="assets/images/card-img-gst.jpg" alt="GST" class="rounded-circle shadow"
+                                        style="height: 150px;width: 150px;">
+                                    <span class="mt-2 text-center">GST<br>Goods and Service Tax</span>
+                                </div>
+                                <div
+                                    class="flip-card-back rounded p-2 d-flex flex-column justify-content-start align-items-start">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="assets/images/card-img-gst.jpg" alt="GST"
+                                            class="rounded-circle shadow" style="height: 50px;width: 50px;">
+                                        <span class="ms-2">Goods and Service Tax (GST)</span>
+                                    </div>
+                                    <div class="bg-white w-100 my-2" style="height: 1px;"></div>
+                                    <div class="d-flex flex-column py-1 px-2">
+                                        <ul class="fa-ul ms-4 eodb-ul text-white">
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    GST Registration
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    GST Returns
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    GST Compliance
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    GST Notice Responce
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="flip-card mx-auto">
+                            <div class="flip-card-inner rounded">
+                                <div
+                                    class="flip-card-front rounded p-2 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="assets/images/circle-img-pos-1.jpg" alt="GST"
+                                        class="rounded-circle shadow" style="height: 150px;width: 150px;">
+                                    <span class="mt-2 text-center">Income Tax Services</span>
+                                </div>
+                                <div
+                                    class="flip-card-back rounded p-2 d-flex flex-column justify-content-start align-items-start">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="assets/images/circle-img-pos-1.jpg" alt="GST"
+                                            class="rounded-circle shadow" style="height: 50px;width: 50px;">
+                                        <span class="ms-2">Income Tax Services</span>
+                                    </div>
+                                    <div class="bg-white w-100 my-2" style="height: 1px;"></div>
+                                    <div class="d-flex flex-column py-1 px-2">
+                                        <ul class="fa-ul ms-4 eodb-ul text-white">
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    Income Tax Ruturn
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    TDS Filling
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    Tax Refund Claim
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    Books of Account Preparation
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="flip-card mx-auto">
+                            <div class="flip-card-inner rounded">
+                                <div
+                                    class="flip-card-front rounded p-2 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="assets/images/card-img-import-export.jpg" alt="GST"
+                                        class="rounded-circle shadow" style="height: 150px;width: 150px;">
+                                    <span class="mt-2 text-center">Import and Export </span>
+                                </div>
+                                <div
+                                    class="flip-card-back rounded p-2 d-flex flex-column justify-content-start align-items-start">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="assets/images/card-img-import-export.jpg" alt="GST"
+                                            class="rounded-circle shadow" style="height: 50px;width: 50px;">
+                                        <span class="ms-2">Import and Export</span>
+                                    </div>
+                                    <div class="bg-white w-100 my-2" style="height: 1px;"></div>
+                                    <div class="d-flex flex-column py-1 px-2">
+                                        <ul class="fa-ul ms-4 eodb-ul text-white">
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    IE Code Creation
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    Bill Generation
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    AD Code Registration
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    GST Return filling for I&E
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="flip-card mx-auto">
+                            <div class="flip-card-inner rounded">
+                                <div
+                                    class="flip-card-front rounded p-2 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="assets/images/card-img-industries.jpg" alt="GST"
+                                        class="rounded-circle shadow" style="height: 150px;width: 150px;">
+                                    <span class="mt-2 text-center">Micro Small and Medium
+                                        Enterprices</span>
+                                </div>
+                                <div
+                                    class="flip-card-back rounded p-2 d-flex flex-column justify-content-start align-items-start">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="assets/images/card-img-industries.jpg" alt="GST"
+                                            class="rounded-circle shadow" style="height: 50px;width: 50px;">
+                                        <span class="ms-2">Micro Small and Medium
+                                            Enterprices</span>
+                                    </div>
+                                    <div class="bg-white w-100 my-2" style="height: 1px;"></div>
+                                    <div class="d-flex flex-column py-1 px-2">
+                                        <ul class="fa-ul ms-4 eodb-ul text-white">
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    MSME Registration
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    Loan Project Report
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    Apply Subsidy Loans
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    Accounts Maintanance
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="flip-card mx-auto">
+                            <div class="flip-card-inner rounded">
+                                <div
+                                    class="flip-card-front rounded p-2 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="assets/images/card-img-fssai.jpg" alt="GST" class="rounded-circle shadow"
+                                        style="height: 150px;width: 150px;">
+                                    <span class="mt-2 text-center">Food Safety and Standards Authority Of India
+                                        (FSSAI)</span>
+                                </div>
+                                <div
+                                    class="flip-card-back rounded p-2 d-flex flex-column justify-content-start align-items-start">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="assets/images/card-img-fssai.jpg" alt="GST"
+                                            class="rounded-circle shadow" style="height: 50px;width: 50px;">
+                                        <span class="ms-2">Food Safety and Standards Authority Of India (FSSAI)</span>
+                                    </div>
+                                    <div class="bg-white w-100 my-2" style="height: 1px;"></div>
+                                    <div class="d-flex flex-column py-1 px-2">
+                                        <ul class="fa-ul ms-4 eodb-ul text-white">
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    FSSAI For Petty Shop
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    FSSAI For Small/Marginal Traders
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <span class="fa-li"><i class="fa-regular fa-circle-right"></i></span>
+                                                <a href="javascript:void(0);" class="text-decoration-none text-dark">
+                                                    FSSAI For Exporter
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SET 2 : Services End -->
+            <!-- SET 1 : Contact Us Start -->
+            <div id="contact_us" class="contact-us container">
+                <h3 class="text-center mb-5 text-warning">Contact Us</h3>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col d-flex">
+                        <img class="mx-auto" src="assets/images/address-img.png" height="350" alt="Address">
+                    </div>
+                    <div class="col align-self-center">
+                        <div class="location-map">
+                            <iframe class="col-12"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2022.908121813503!2d79.2189713161131!3d10.13385599674007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0019ca3a8b5371%3A0x127e84bfb67db9eb!2sKM%20ASSOCIATES!5e0!3m2!1sen!2sin!4v1675494004872!5m2!1sen!2sin"
+                                height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SET 1 : Contact Us End -->
+        </div>
+        <!-- Footer START -->
+        <footer class="app-footer container-fluid py-1 d-flex flex-column mt-auto">
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="addrs">
+                        <h6 class="text-uppercase">Address</h6>
+                        <address class="fst-italic small">
+                            Aranthangi Road, Fish Market Opposite,<br>
+                            Kattumavadi, Manamelkudi Taluk,<br>
+                            Pudukkottai - 614630.
+                        </address>
+                    </div>
+                </div>
+                <div class="col align-self-center">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="social-links mx-auto">
+                            <div class="row row-cols-5 g-4">
+                                <div class="col">
+                                    <a class="social-icon" href="https://m.facebook.com/efilling4gst" target="_blank"
+                                        title="KM Associates facebook link">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="social-icon" href="https://twitter.com/Karthik77679159" target="_blank"
+                                        title="KM Associates twitter link">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="social-icon hover-red" href="https://www.youtube.com/KarthikeyanMunusamy"
+                                        target="_blank" title="KM Associates youtube link">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="social-icon" href="https://www.linkedin.com/in/kmgstseva/" target="_blank"
+                                        title="KM Associates linked-in link">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="social-icon hover-red" href="mailto: kmassociates.trp@gmail.com"
+                                        target="_blank" title="KM Associates mail external link">
+                                        <i class="fa-regular fa-envelope"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <small class="mx-auto text-uppercase mt-3">
+                            &copy; 2023&nbsp;&#183;&nbsp;All Rights Reserved
+                        </small>
+                    </div>
+
+
+                </div>
+                <div class="col d-flex">
+                    <div class="ms-lg-auto align-self-center contact">
+                        <h6 class="text-uppercase">Contact</h6>
+                        <address class="small">
+                            +91 80980 90654,
+                            +91 90807 46467<br>
+                            kmassociates.trp@gmail.com
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer END -->
+    </div>
+    <!-- Right side menu  -->
+    <div class="right-center-social-menu">
+        <ul class="list-unstyled p-0 m-0 d-flex flex-column align-items-center"
+            style=" box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;">
+            <li>
+                <a class="right-menu-icon fb-hover " href="https://m.facebook.com/efilling4gst" target="_blank"
+                    title="KM Associates facebook link">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a class="right-menu-icon twit-hover" href="https://twitter.com/Karthik77679159" target="_blank"
+                    title="KM Associates twitter link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a class="right-menu-icon youtube-hover" href="https://www.youtube.com/KarthikeyanMunusamy"
+                    target="_blank" title="KM Associates youtube link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a class="right-menu-icon fb-hover" href="https://www.linkedin.com/in/kmgstseva/" target="_blank"
+                    title="KM Associates linked-in link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a class="right-menu-icon youtube-hover" href="mailto: kmassociates.trp@gmail.com" target="_blank"
+                    title="KM Associates mail external link">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Right side menu  -->
+    <script src="assets/vendor/jQuery/jquery-3.6.3.min.js"></script>
+    <script src="assets/vendor/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/fontawesome-free-6.2.1-web/js/all.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
